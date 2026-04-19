@@ -1,13 +1,10 @@
 # network_checker_detector
-# Network-Detector-Tester 🚀
 
-![License](https://shields.io)
-![KiCad Version](https://shields.io)
-![Status](https://shields.io)
+
 
 A hardware-based **Sequential Network Cable Tester** designed in KiCad. This tool detects signal frequency and pin-to-pin continuity for RJ45 Ethernet cables.
 
-## 📌 Project Description
+##  Project Description
 This device identifies wiring faults in network cables by cycling a signal through all 8 pins sequentially. It uses hardware logic (no MCU required) to provide real-time visual feedback via an LED array.
 
 ### Features
@@ -18,7 +15,7 @@ This device identifies wiring faults in network cables by cycling a signal throu
 
 ---
 
-## 🛠 Hardware Architecture
+##  Hardware Architecture
 
 ### Logic Flow
 1. **Clock Generation (U1):** An **NE555 Timer** generates a square wave (the system heartbeat).
@@ -37,13 +34,13 @@ This device identifies wiring faults in network cables by cycling a signal throu
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```text
 ├── hardware/
-│   ├── networkdetector.kicad_sch  # Schematic Editor File
-│   ├── networkdetector.kicad_pcb  # PCB Layout File
-│   └── networkdetector.kicad_pro  # Project Settings
+│   ├── networkdetector.kicad_sch  
+│   ├── networkdetector.kicad_pcb  
+│   └── networkdetector.kicad_pro  
 ├── renders/
-│   └── 3d_view.png                # 3D PCB Visualization
+│   └── 3d_view.png               
 └── docs/
-    └── BOM.csv                    # Bill of Materials
+    └── BOM.csv                    
