@@ -43,4 +43,11 @@ This device identifies wiring faults in network cables by cycling a signal throu
 ├── renders/
 │   └── 3d_view.png               
 └── docs/
-    └── BOM.csv                    
+    └── BOM.csv
+
+## Images
+
+<img width="1918" height="983" alt="best image PCB" src="https://github.com/user-attachments/assets/422dffe3-a62f-49cd-94b4-7160681f123b" />
+
+<img width="744" height="615" alt="Screenshot 2026-04-19 114021" src="https://github.com/user-attachments/assets/065c0261-9991-4d75-b421-2f3ec2db1509" />
+              
